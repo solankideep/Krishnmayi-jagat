@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+body {
+    width: 90%;
+    padding-left: 12%;
+    position: absolute;
+    /* background: url('E:/web development/New folder/Merge.png'); */
+    background: url('E:/web development/New folder/Wha.jpg');
+}
+
+h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Yatra One', cursive
+}
+
+.headline {
+    text-shadow: 2px 2px rgba(253, 166, 5, 0.678);
+}
+
+.border1 {
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.tag {
+    filter: drop-shadow(0 0 1rem rgb(252, 216, 13));
+}
+
+#tl {
+    height: 50px;
+    width: 50px;
+}
+
+.banner {
+    width: 120px;
+    height: 100px;
+    display: inline;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 40px;
+}
+
+.shlok {
+    color: transparent;
+    animation: anim 3s linear infinite;
+}
+
+@keyframes anim {
+    0% {
+        background-color: rgb(255, 0, 0);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: rgb(68, 0, 255);
+        -webkit-background-clip: text;
+    }
+}
+
+.homepage {
+    background-color: #ffffffee;
+    border-bottom: 2px black;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+}
+
+p {
+    font-family: 'Kalam', cursive;
+    size: 3em;
+    line-height: 1.5;
+}
+
+h1 {
+    color: rgb(8, 8, 8);
+}
+
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.945);
+    position: absolute;
+    z-index: -1;
+}
+
+.mycontainer {
+    width: 80%;
+    padding-top: 4%;
+    padding-left: 4%;
+
+
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+    color: #000;
+
+}
+
+.nav-item {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* shadow on image */
+.row3 {
+    padding-top: 50px;
+    padding-left: 50px;
+    border: 10px white;
+    background-image: url('E:/web development/New folder/bgggg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.493);
+
+}
+
+.back {
+    background-color: rgba(255, 255, 255, 0.479);
+    height: 100px;
+    width: 430px;
+    border-radius: 10px;
+}
+
+.end {
+    padding-top: 50px;
+    padding-left: 50px;
+    border: 10px white;
+    background-image: url('E:/web development/New folder/Polish.jpg');
+    /* background-position: centre; */
+    background-repeat: no-repeat;
+    /* box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.493); */
+
+}
+
+.kirtan {
+    padding-top: 100px;
+}
+
+
+.bhakt {
+    margin: 0px;
+    padding-left: 100px;
+    filter: drop-shadow(0 0 1rem rgb(209, 139, 33));
+    display: flex;
+    flex-direction: row;
+}
+
+.bhakt2 {
+    filter: drop-shadow(0 0 2rem rgba(255, 255, 0, 0.705));
+}
+
+
+
+.row1 {
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.frst {
+    padding: 50px 0px 0px 50px;
+}
+
+#mahaprabhu {
+    filter: drop-shadow(0 0 1rem yellow);
+}
+
+#goswami {
+    filter: drop-shadow(0 0 1rem yellow);
+}
+
+#mirabai {
+    filter: drop-shadow(0 0 1rem yellow);
+}
+
+.second {
+    padding: 100px 0px 0px 50px;
+}
+
+.third {
+    padding: 100px 20px 0px 50px;
+}
+
+#testimonials {
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mahaprabhu:hover {
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+p {
+    color: rgb(7, 7, 7);
+}
+
+.card-text {
+    color: #000;
+}
+
+#goswami:hover {
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+#mirabai:hover {
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+#testimonials {
+    text-align: center;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.678);
+    /* background: url('E:/web development/New folder/mandir.png'); */
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+
+}
+
+.social {
+    margin-top: 100px;
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 546px;
+    align-items: center;
+
+}
+
+#ig {
+    margin-left: 10px;
+    width: 25px;
+    transition: transform .2s;
+}
+
+#fb {
+    position: relative;
+    margin-right: 10px;
+    width: 25px;
+    transition: transform .2s;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    word-wrap: break-word;
+    padding-left: 200px;
+    padding-bottom: 150px;
+    height: 100px;
+    padding-top: 100px;
+    background: url('E:/web development/New folder/bg.jpg');
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.493);
+}
+
+#fb:hover {
+    transform: scale(1.5);
+}
+
+#ig:hover {
+    transform: scale(1.5);
+}
+
+.text {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 2px #000;
+}
