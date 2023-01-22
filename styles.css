@@ -9,7 +9,7 @@ body {
     padding-left: 12%;
     position: absolute;
     /* background: url('E:/web development/New folder/Merge.png'); */
-    background: url('E:/web development/New folder/Wha.jpg');
+    background: url('./Wha.jpg');
 }
 
 h3 {
